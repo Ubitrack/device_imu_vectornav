@@ -1,10 +1,10 @@
-device_camera_realsense
+device_imu_vectornav
 ==============
-This is the Ubitrack device_camera_realsense submodule.
+This is the Ubitrack device_imu_vectornav submodule.
 
 Description
 ----------
-The device_camera_realsense contains components for video capturing with the Pointgrey realsense SDK.
+The device_imu_vectornav contains components VectorNAV IMU data aquisition using its SDK.
 
 ## For Users: Use this package
 
@@ -13,7 +13,7 @@ The device_camera_realsense contains components for video capturing with the Poi
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
 
     [requires]
-    ubitrack_device_camera_realsense/1.3.0@ubitrack/stable
+    ubitrack_device_imu_vectornav/1.3.0@ubitrack/stable
 
     [generators]
     cmake
@@ -41,4 +41,4 @@ The following command both runs all the steps of the conan file, and publishes t
 
 ## Upload
 
-    $ conan upload -r camp ubitrack_device_camera_realsense/1.3.0@ubitrack/stable
+    $ conan upload -r camp ubitrack_device_imu_vectornav/1.3.0@ubitrack/stable
